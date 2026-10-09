@@ -1,0 +1,54 @@
+{
+  "title": "Mon Raspberry Pi Hub",
+  "services": [
+    {
+      "id": "1",
+      "name": "Pi-hole",
+      "url": "http://192.168.1.100/admin",
+      "icon": "shield-check",
+      "category": "Sécurité & Réseau",
+      "color": "#10b981"
+    },
+    {
+      "id": "2",
+      "name": "Home Assistant",
+      "url": "http://192.168.1.100:8123",
+      "icon": "home",
+      "category": "Domotique",
+      "color": "#0ea5e9"
+    },
+    {
+      "id": "3",
+      "name": "Portainer",
+      "url": "http://192.168.1.100:9000",
+      "icon": "container",
+      "category": "Administration",
+      "color": "#6366f1"
+    },
+    {
+      "id": "4",
+      "name": "Plex Media",
+      "url": "http://192.168.1.100:32400",
+      "icon": "film",
+      "category": "Médias",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "5",
+      "name": "Transmission / Deluge",
+      "url": "http://192.168.1.100:9091",
+      "icon": "download",
+      "category": "Téléchargements",
+      "color": "#ec4899"
+    },
+    {
+      "id": "6",
+      "name": "Explorateur Fichiers / Samba",
+      "url": "http://192.168.1.100:8080",
+      "icon": "folder",
+      "category": "Stockage",
+      "color": "#8b5cf6"
+    }
+  ],
+  "notes": "📌 Pense-bête Raspberry Pi :\n- Adresse IP Fixe : 192.168.1.100\n- Commandes utiles : `sudo apt update && sudo apt upgrade -y`\n- Redémarrer un service : `sudo systemctl restart pidash`"
+}
